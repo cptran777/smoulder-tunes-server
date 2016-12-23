@@ -3,6 +3,7 @@
 let store = [
   {
     id: 1,
+    type: 'songs',
     attributes: {
       artist: 'Aerosmith',
       title: 'Dream On',
@@ -11,6 +12,7 @@ let store = [
   },
   {
     id: 2,
+    type: 'songs',
     attributes: {
       artist: 'Final Fantasy XIII-2',
       title: 'Last Wanderer',
@@ -19,6 +21,7 @@ let store = [
   },
   {
     id: 3,
+    type: 'songs',
     attributes: {
       artist: 'Re Zero',
       title: 'Elegy For Rem',
@@ -27,6 +30,7 @@ let store = [
   },
   {
     id: 4,
+    type: 'songs',
     attributes: {
       artist: 'Re Zero',
       title: 'Ending Theme',
@@ -35,6 +39,7 @@ let store = [
   },
   {
     id: 5,
+    type: 'songs',
     attributes: {
       artist: 'Re Zero',
       title: 'Elegy For Rem - Piano Version',

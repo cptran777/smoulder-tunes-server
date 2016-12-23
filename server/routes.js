@@ -25,11 +25,13 @@ const routesMain = (app) => {
 const routesAPI = (app) => {
 
   app.get('/api/songs', (req, res) => {
+    
+    console.log('received api request');
     res.send({
       data: store
     });
   });
-  
+
 };
 
 const routesServe = (app) => {
