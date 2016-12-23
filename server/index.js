@@ -26,6 +26,7 @@ app.use(bodyparser.json());
 
 router.main(app);
 router.api(app);
+router.serve(app);
 
 /********************* INIT SERVER *************************/
 

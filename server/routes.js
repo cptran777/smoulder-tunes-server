@@ -26,6 +26,14 @@ const routesAPI = (app) => {
 
 const routesServe = (app) => {
 
+  app.get('/media', (req, res) => {
+
+    console.log('received request');
+    let name = req.query.name;
+    res.sendFile(path.join(__dirname, '../assets/music', name + '.mp3'));
+
+  });
+
 };
 
 module.exports = {
