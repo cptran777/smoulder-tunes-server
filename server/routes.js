@@ -3,7 +3,6 @@
 /******************* INIT DEPENDENCIES *********************/
 
 let path = require('path');
-let request = require('request');
 
 /********************** MAIN ROUTES ************************/
 
