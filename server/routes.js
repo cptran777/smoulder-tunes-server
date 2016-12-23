@@ -4,6 +4,8 @@
 
 let path = require('path');
 
+let store = require('../db/store.js');
+
 /********************** MAIN ROUTES ************************/
 
 const routesMain = (app) => {
@@ -22,6 +24,12 @@ const routesMain = (app) => {
 
 const routesAPI = (app) => {
 
+  app.get('/api/songs', (req, res) => {
+    res.send({
+      data: store
+    });
+  });
+  
 };
 
 const routesServe = (app) => {
