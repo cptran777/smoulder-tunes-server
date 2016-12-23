@@ -10,7 +10,7 @@ let request = require('request');
 const routesMain = (app) => {
 
   const mainMessage = (req, res) => {
-    res.send({ message: 'This is an API service for Pocketmon Dex' });
+    res.send({ message: 'This is an API service for Smoulder Tunes' });
   };
 
   app.get('/', mainMessage);
